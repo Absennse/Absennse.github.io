@@ -14,7 +14,7 @@ function darkmode() {
         document.getElementById('pybar').style.backgroundColor='white'
         document.getElementById('aboutme').style.borderColor='white';
         document.getElementById('head1').style.color='white'
-        document.getElementById('introh').style.color='whiteg'
+        document.getElementById('introh').style.color='white'
         document.getElementById('head2').style.color='white'
         darkModeButton.innerHTML = 'Light Mode';
     } else {
@@ -26,6 +26,7 @@ function darkmode() {
         document.getElementById('aboutme').style.borderColor='black';
         document.getElementById('head1').style.color='black'
         document.getElementById('head2').style.color='black'
+        document.getElementById('introh').style.color='black'
         document.body.classList.remove('dark-mode');
         cardElement.classList.remove('dark-mode');
         darkModeButton.innerHTML = 'Dark Mode';
