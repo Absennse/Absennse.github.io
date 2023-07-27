@@ -140,23 +140,156 @@ h1,h2,h3{
 }
 .htmlbar div{
     background-color:green;
-    width:250px;
+    width:300px;
     height:20px;
 
 }
 .cssbar div{
     background-color:green;
-    width:250px;
+    width:300px;
     height:20px;
 }
 .jsbar div{
     background-color:green;
-    width:250px;
+    width:320px;
     height:20px;
 }
 .pybar div{
     background-color:green;
-    width:300px;
+    width:350px;
     height:20px;
 }
+#darkmode{
+    background-color: white;
+    color:black;
+    width:60px;
+    height:60px;
+    border-radius: 100%;
 
+}
+#darkmode:active{
+    width:50px;
+    height:50px;
+    
+}
+.dark-mode {
+    color: white;
+    background-color: black;
+  }
+  
+  /* Additional dark mode styles for specific elements */
+  .dark-mode #cardd {
+    background-color: black;
+  }
+  @media (max-width: 576px) {
+    .card {
+        width: 90%; /* Adjust the width for smaller screens */
+        height: 1520px; /* Allow the height to adjust according to content */
+    }
+    .imgMe {
+        width: 150px; /* Decrease the width of the image for smaller screens */
+        margin:0 auto;
+        margin-top:10px;
+    }
+    .about h2{
+        margin-right:10px;
+    }
+    .mycountry p{
+        width:90%;
+        margin:0 auto;
+    }
+    .info {
+        flex-direction: column; /* Stack the elements vertically */
+        text-align: center;
+    }
+    .info2 {
+        width: 80%; /* Adjust the width for smaller screens */
+        margin: 20px auto; /* Center the element */
+    }
+    .me p{
+        width:90%;
+        margin:0 auto;
+        margin-left:5%;
+        margin-right:5%;
+    }
+    .about{
+        height:fit-content;
+        width:95%;
+        margin:0 auto;
+    }
+    .SKILL{
+        height:fit-content;
+    }
+    .me,
+    .mycountry {
+        font-size:15px;
+        width: 100%; /* Adjust the width for smaller screens */
+        margin-left: 0px;
+         /* Remove the left margin */
+        text-align: center; /* Center the text */
+    }
+    .flag {
+        width: 150px; /* Decrease the width of the flag image for smaller screens */
+    }
+    .htmlbar{
+        background-color:black;
+        height:20px;
+        width:50%;
+        margin:0 auto;
+        z-index:-1;
+    }
+    .cssbar{
+        background-color:black;
+        height:20px;
+        width:50%;
+        margin:0 auto;
+        z-index:-1;
+    }
+    .jsbar{
+        background-color:black;
+        height:20px;
+        width:50%;
+        margin:0 auto;
+        z-index: -1;
+    }
+    .mycountry{
+        display:block;
+
+    }
+    .SKILL h2{
+        font-size:20px;
+    }
+    .SKILL{
+        display:block;
+    }
+    .pybar{
+        background-color:black;
+        height:20px;
+        width:50%;
+        margin:0 auto;
+        z-index:-1;
+        margin-bottom:10px;
+    }
+    .htmlbar div{
+        background-color:green;
+        width:50%;
+        height:20px;
+    
+    }
+    .cssbar div{
+        background-color:green;
+        width:60%;
+        height:20px;
+    }
+    .jsbar div{
+        background-color:green;
+        width:70%;
+        height:20px;
+    }
+    .pybar div{
+        background-color:green;
+        width:70%;
+        height:20px;
+    }
+    
+}

@@ -6,17 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Absense's Portofolio</title>
     <link href="styles.css" rel="stylesheet">
-    <script src="script.js"></script>
+    
 </head>
 <body>
-    <div class="navbar">
+    <div class="navbar" id="nav">
         <ul class="link">
             <li><a href="#card">About Me</a></li>
             <li><a href="projects.html">Projects</a></li>
             <li><a href='#'>Socials/links</a></li>
+            <li><button id="darkmode">Dark Mode</button></li>
         </ul>
     </div>
-     <div class="card">
+     <div class="card" id="cardd">
       <div class="info">
         <img src="media/Me.png" alt="ME" width="100" class="imgMe"> 
         <ul class="info2">
@@ -26,14 +27,14 @@
             <li>Email: mhh17042008@gmail.com</li>
         </ul>
       </div>
-      <div class="about">
-        <h1>About Me</h1>
+      <div class="about" id="aboutme">
+        <h1 id="introh">About Me</h1>
         <div class="me">
-        <h2>Hello There</h1>
+        <h2 id="head1">Hello There</h1>
         <p>Hi there my real name is mhmad and i started programming for some reason since i got bored so iam advancing in my 'Journey' but who cares i am yet to become a good one but still trying!.</p>
         </div>
         <div class="mycountry">
-        <h2>I am from a country in the middle east!</h2>
+        <h2 id="head2">I am from a country in the middle east!</h2>
         <p>You might and might not know the small country in the middle east called lebanon but I am from there!</p>
         <img class="flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Lebanon.svg/1280px-Flag_of_Lebanon.svg.png" alt="lebanons flag!" width="200">
       </div>
@@ -43,25 +44,25 @@
         <div class="line"></div>
         <div class="skills">
             <h4>HTML:</h4>
-            <div class="htmlbar">
+            <div class="htmlbar" id="hbar">
                 <div class='level'></div>
             </div>
             <h4>CSS:</h4>
-            <div class="cssbar">
+            <div class="cssbar"  id="csbar">
                 <div class="level"></div>
             </div>
             <h4>Java Script:</h4>
-            <div class="jsbar">
+            <div class="jsbar" id="jbar">
                 <div class="level"></div>
             </div>
             <h4>Python:</h4>
-            <div class="pybar">
+            <div class="pybar" id="pybar">
                 <div class="level"></div>
             </div>
         </div>
       </div>
     </div>
 
-    
+    <script src="script.js" ></script>
 </body>
 </html>
