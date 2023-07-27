@@ -1,0 +1,70 @@
+body{
+   background-color: rgb(213, 255, 255);   
+   margin:0;
+}
+.navbar{
+    width:100%;
+    background-color: black;
+    height:70px;
+    margin-bottom: 10px;
+}
+.navbar ul{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:0;
+    height:70px;
+}
+.navbar a{
+    color:white;
+    transition:all 0.3s
+}
+.navbar a:hover{
+    color:lightblue;
+}
+.card{
+    display:block;
+    background-color: rgb(230,230,230);
+    width:1000px;
+    height:900px;
+    margin:0 auto;
+}
+.info{
+    display:flex;
+    align-items: center;    
+}
+.imgMe{
+   width:250px;
+   display:inline-block;
+   border-radius: 25%;
+   margin-left:20px
+   
+}
+
+.info2{
+    width:300px;
+    margin:0 auto;
+    margin-top:0;
+    border:2px double white;
+    background-color:black;
+    color:white;
+    height:200px;
+    border-radius: 25%;
+    
+
+}
+.info2 li{
+    font-size:20px;
+    margin-bottom:5px;
+}
+.ls1{
+    margin-top:20px;
+}
+.about h1{
+    text-align:center;
+    font-size:40px;
+
+}
+.about{
+    margin-top:20px;
+}
