@@ -32,4 +32,5 @@ function darkmode() {
         darkModeButton.innerHTML = 'Dark Mode';
     }
 }
+
 document.getElementById('darkmode').onclick=darkmode

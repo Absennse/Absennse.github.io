@@ -134,7 +134,18 @@ async function correctanswer(event) {
   
   document.getElementById('score').innerHTML = score;
 }
-
+let darkmodestatus=false
+function darkmode(){
+  if (!darkmodestatus){
+  document.body.style.backgroundColor='black'
+  document.querySelectorAll('.choice').forEach(button=>{button.style.backgroundColor='white';button.style.color='black'})
+  document.querySelector('.scorediv').style.color='white'
+  document.getElementById('darkmode').innerHTML='Light Mode'
+  darkmodestatus=true
+}
+  else{document.body.style.backgroundColor='white';document.querySelectorAll('.choice').forEach(button=>{button.style.backgroundColor='black';button.style.color='white' });document.getElementById('darkmode').innerHTML='Dark Mode';darkmodestatus=false}
+}
+document.getElementById('darkmode').onclick=darkmode
 document.getElementById('choice2').addEventListener('click',wronganswer)
 document.getElementById('choice3').addEventListener('click',wronganswer)
 document.getElementById('choice4').addEventListener('click',wronganswer)

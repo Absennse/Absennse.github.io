@@ -186,18 +186,46 @@ h1,h2,h3{
     grid-template-columns:200px;
     text-align: center;
     width:50%;
+    
     margin: 0 auto;
     background-color:white;
     font-size:120%;
     height:500px;
     align-items:center;
+    margin-top:60px;
+}
+.container a{
+    color:black;
+    transition: all 0.2s;
+}
+.container a:hover{
+    color:darkblue;
+    text-decoration: none;
 }
 .flagquiz{
-    background-color: white;
+    background-color: red;
     text-align: center;
     
-}
 
+       
+}
+.tba{
+    background-color: green;
+}
+.container2{
+    display:grid;
+    width:50%;
+    height: 50%;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin:0 auto;
+    
+    
+}
+.container2 img{
+    width:100%;
+    
+    
+}
 
 
   @media (max-width: 576px) {
@@ -311,4 +339,9 @@ h1,h2,h3{
         height:20px;
     }
     
+}
+@media (min-width:824px){
+    .container2{
+          width:20%;
+    }
 }
