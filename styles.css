@@ -180,6 +180,26 @@ h1,h2,h3{
   .dark-mode #cardd {
     background-color: black;
   }
+.container{
+    display:grid;
+    justify-content: center;
+    grid-template-columns:200px;
+    text-align: center;
+    width:50%;
+    margin: 0 auto;
+    background-color:white;
+    font-size:120%;
+    height:500px;
+    align-items:center;
+}
+.flagquiz{
+    background-color: white;
+    text-align: center;
+    
+}
+
+
+
   @media (max-width: 576px) {
     .card {
         width: 90%; /* Adjust the width for smaller screens */
